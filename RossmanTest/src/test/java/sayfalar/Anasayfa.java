@@ -10,6 +10,8 @@ public class Anasayfa extends Komutlar{
     public final String cookies = "banner-accept-button"; //id
 
     public final String urunKontrol = ".base"; //xpath
+    
+    public final String carpi = "//div[@class='ins-notification-content ins-notification-content-2407 ins-element-link']//span[.='×']"; //xpath gidebilir!!
 
 
 
