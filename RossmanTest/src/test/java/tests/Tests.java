@@ -40,13 +40,12 @@ public static void setUp() {
 
 @Test
     public void test01() throws InterruptedException {
-
-    anasayfa.gozukeneKadarBekleId(anasayfa.cookies);
-
-    anasayfa.gozukeneKadarBekleCss(anasayfa.wpKapat);
-    anasayfa.tiklaCss(anasayfa.wpKapat);
+    
+        
+    anasayfa.gozukeneKadarBekleXpath(anasayfa.carpi);
+    anasayfa.tiklaXpath(anasayfa.carpi);
+    anasayfa.gozukeneKadarBekleId(anasayfa.cookies);      
     anasayfa.tiklaId(anasayfa.cookies);
-
     anasayfa.tiklaId(anasayfa.aramaBox);
 
     anasayfa.yaziYazId(anasayfa.aramaBox,"Lip gloss");
